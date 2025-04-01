@@ -61,6 +61,8 @@
     }
   },
   "lint-staged": {
-    "*.ts": "eslint --cache \"src/**/*.ts\" \"tests/**/*.ts\""
+    "**/*.(js|jsx|ts|tsx)": [
+      "eslint --fix"
+    ]
   }
 }
