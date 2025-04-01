@@ -5,11 +5,14 @@ import { createRoot } from 'react-dom/client'
 
 import './index.css'
 import App from './App'
+import { Provider } from './components/ui/provider'
 
 const container = document.getElementById('root')! as HTMLElement
 
 createRoot(container).render(
 	<StrictMode>
-		<App />
+		<Provider>
+			<App />
+		</Provider>
 	</StrictMode>,
 )

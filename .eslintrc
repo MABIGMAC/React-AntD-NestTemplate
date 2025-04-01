@@ -50,7 +50,7 @@
         }
       }
     ],
-    "import/exports-last": ["error"],
+    "import/exports-last": ["off"],
     "import/newline-after-import": ["error"],
     "padding-line-between-statements": [
       "error",
