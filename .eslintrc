@@ -31,7 +31,7 @@
     "lines-between-class-members": "off",
     "class-methods-use-this": "error",
     "quotes": ["error", "single"],
-    "semi": ["error", "always"],
+    "semi": ["off"],
     "object-curly-spacing": ["error", "always"],
     "key-spacing": ["error", { "afterColon": true }],
     "no-multi-spaces": "error",
@@ -142,7 +142,7 @@
     "import/extensions": [
       "error",
       "ignorePackages",
-      { "ts": "never","tsx": "never" }
+      { "ts": "never", "tsx": "never", "js": "never", "jsx": "never" }
     ],
     "typescript-sort-keys/interface": "off",
     "typescript-sort-keys/string-enum": "error"
