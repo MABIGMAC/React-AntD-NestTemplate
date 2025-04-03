@@ -1,7 +1,9 @@
+import { Button } from 'antd'
+
 function App() {
 	return (
-		<div>
-			<h1>Welcome to the React App</h1>
+		<div className="App">
+			<Button type="primary">Button</Button>
 		</div>
 	)
 }
